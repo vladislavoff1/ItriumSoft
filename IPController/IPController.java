@@ -12,7 +12,6 @@ class IPController {
             return;
         }
 
-
         Command command;
 
         try {

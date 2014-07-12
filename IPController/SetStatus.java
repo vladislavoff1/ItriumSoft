@@ -20,7 +20,8 @@ class SetStatus extends Command {
     }
 
     @Override
-    public void run() {
+    public void run(ControllerState state) {
+        state.setStatus(status);
         System.out.println("Status was changed to " + status.name().toLowerCase() + ".");
     }
 
