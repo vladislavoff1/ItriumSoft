@@ -12,11 +12,11 @@ public class Database {
     protected static String password = "vlad007.1996@yandex.ru";
 
 
-    private static String getStatusQuery = "INSERT INTO `Statuses`(`id`, `status`) VALUES (\"%id\", \"%status\") ON DUPLICATE KEY UPDATE `status` = \"%status\";";
+    private static String getStatusQuery = "INSERT INTO `Statuses`(`id`, `status`) VALUES (\"%id\", \"%status\") ON DUPLICATE KEY UPDATE `time` = now(), `status` = \"%status\";";
 
     public static void setStatus(String id, String status) throws Exception {
         Connection connection = null;
-        int result;
+        //int result;
 
         //try {
             Class.forName(driverName);
@@ -24,7 +24,7 @@ public class Database {
             Statement statement = connection.createStatement();
 
             String query = getStatusQuery.replaceAll("%id", id).replaceAll("%status", status);
-            result = statement.executeUpdate(query);
+            statement.executeUpdate(query);
         /*} catch (Exception ex) {
             //TODO Logger
         } finally {
