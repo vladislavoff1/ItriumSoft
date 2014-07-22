@@ -9,7 +9,7 @@ class ServerConnection implements Runnable {
 
     private final static String targetURL = "http://localhost:8080/Server/GetState?%id&%status";
 
-    private static int deltaTime = 10000;
+    private static int deltaTime = 1000;
     private ControllerState controllerState;
 
     public ServerConnection(ControllerState controllerState) {
