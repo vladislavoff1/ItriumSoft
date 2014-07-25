@@ -21,8 +21,20 @@ class SetStatus extends Command {
 
     @Override
     public void run(ControllerState state) {
+
+        String msg = "Status was changed to " + status.name().toLowerCase() + ".";
+        
+        if (state.status.equals(status)) {
+            System.out.println(msg);
+            return; 
+        }
+
         state.setStatus(status);
-        System.out.println("Status was changed to " + status.name().toLowerCase() + ".");
+
+        Event event = new Event(msg);
+        new EventSender(state, event);
+
+        System.out.println(msg);
     }
 
 }
