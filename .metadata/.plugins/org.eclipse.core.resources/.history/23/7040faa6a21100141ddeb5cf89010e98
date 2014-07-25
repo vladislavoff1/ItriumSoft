@@ -1,0 +1,49 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="com.itrium.borey.client.*"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% 
+	Integer user = (Integer) session.getAttribute("user");
+    String email = (String) session.getAttribute("email");
+    if (user == null) {
+        response.sendRedirect("index.jsp");
+    }
+    ControllerParams[] statuses = Controllers.getControllers((int)user);
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Information about your controllers.</title>
+</head>
+<body>
+
+<body>
+
+<h3>Information about your controllers.</h3>
+
+<p>
+User: <strong> <%= email %></strong> <br>
+<a href="LogOut">Log out</a>
+</p>
+
+<% 
+    for(int i = 0; i < statuses.length; i++) {
+        String id = statuses.getString("privateKey");
+        String time = statuses.getString("time");
+        String status = statuses.getString("status");
+%>  
+        <p>
+        Controller ID: <strong><%= id %></strong><br>
+        Last connection: <strong><%= time %></strong><br>
+        Status: <strong><font color="%COLOR"><%= status %></font></strong><br>
+        </p>
+<%
+    }
+%>
+
+<p>
+<a href="addcontroller.jsp">Add controller</a>
+</p>
+
+</body>
+</html>

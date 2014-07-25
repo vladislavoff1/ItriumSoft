@@ -1,0 +1,4 @@
+1405283773835	Rename resource 'Servers'
+1405331313853	Delete resource 'Tomcat/Tomcat v8.0 Server at localhost-config'
+1405383554621	Delete resource 'mysql-connector-java-5.1.31-bin'
+1405383871369	Delete resource 'mysql-connector'

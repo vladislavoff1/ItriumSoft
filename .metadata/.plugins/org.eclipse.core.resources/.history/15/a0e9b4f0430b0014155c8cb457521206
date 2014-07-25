@@ -1,0 +1,16 @@
+
+/**
+ * @author Vladislav Romanov
+ */
+
+class MessageParserError extends Error {
+
+    public MessageParserError() {
+        super();
+    }
+
+    public MessageParserError(String msg) {
+        super(msg);
+    }
+
+}
