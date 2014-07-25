@@ -16,6 +16,7 @@
     if (statuses == null) {
         %>
             <h3>Statuses error</h3>
+          
         <%
         return;
     }
@@ -26,8 +27,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Information about your controllers.</title>
 </head>
-<body>
-
 <body>
 
 <h3>Information about your controllers.</h3>
@@ -67,6 +66,7 @@ User: <strong> <%= email %></strong> <br>
         Controller ID: <strong id="<%= "id" + i  %>"><%= id %></strong><br>
         Last connection: <strong id="<%= "time" + i  %>"><%= time %></strong><br>
         Status: <strong id="<%= "status" + i  %>"><font color="<%= color %>"><%= status %></font></strong><br>
+        <a href="hystory.jsp?key=<%= id %>">Hystory</a>
         </p>
 <%
     }

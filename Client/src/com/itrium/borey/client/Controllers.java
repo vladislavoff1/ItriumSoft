@@ -23,7 +23,7 @@ public class Controllers {
         // TODO: Key can't consist some symbols. E.g. '?', '"', ';'. 
 
         Connection connection = null;
-        int result;
+        //int result;
         boolean res = false;
 
         try {
@@ -32,7 +32,7 @@ public class Controllers {
             Statement statement = connection.createStatement();
 
             String query = addQuery.replaceAll("%key", key).replaceAll("%user", user + "");
-            result = statement.executeUpdate(query);
+            statement.executeUpdate(query);
             res = true;
         } catch (Exception e) {
             // TODO: Logger.
@@ -69,10 +69,10 @@ public class Controllers {
             result.last();  
             int size = result.getRow();
             res = new ControllerParams[size];
-        	result.beforeFirst();
+            result.beforeFirst();
             for (int i = 0; i < size; i++) {
-            	result.next();
-            	res[i] = new ControllerParams();
+                result.next();
+                res[i] = new ControllerParams();
                 res[i].key = result.getString("id");
                 res[i].time = result.getTimestamp("time").toString();
                 res[i].status = result.getString("status");
@@ -80,7 +80,54 @@ public class Controllers {
 
         } catch (Exception e) {
             // TODO: Logger.
-        	e.printStackTrace(out);
+            e.printStackTrace(out);
+            return null;
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    // TODO: Logger.
+                }
+            }
+        }
+        return res; 
+    }
+
+
+
+    private static String getEventsQuery = "SELECT *  FROM `Events` WHERE `privateKey` LIKE '%key'";
+
+    public static Event[] getEvents(String key, PrintWriter out) {
+
+        Connection connection = null;
+        ResultSet result;
+        Event[] res;
+
+        try {
+            Class.forName(driverName);
+            connection = DriverManager.getConnection(url, name, password);
+            Statement statement = connection.createStatement();
+
+            String query = getEventsQuery.replaceAll("%key", key);
+            result = statement.executeQuery(query);
+
+            result.beforeFirst();  
+            result.last();  
+            int size = result.getRow();
+            res = new Event[size];
+            result.beforeFirst();
+            for (int i = 0; i < size; i++) {
+                result.next();
+                res[i] = new Event();
+                res[i].msg = result.getString("msg");
+                res[i].time = result.getTimestamp("time").toString();
+                res[i].priority = result.getInt("priority");
+            }
+
+        } catch (Exception e) {
+            // TODO: Logger.
+            e.printStackTrace(out);
             return null;
         } finally {
             if (connection != null) {

@@ -62,7 +62,7 @@ public class Authorization {
 
         Connection connection = null;
         ResultSet result;
-        int res = -1;
+        //int res = -1;
 
         try {
             Class.forName(driverName);
