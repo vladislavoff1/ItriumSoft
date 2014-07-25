@@ -7,7 +7,7 @@ import java.io.*;
 
 class ServerConnection implements Runnable {
 
-    private final static String targetURL = "http://localhost:8080/Server/GetState?%id&%status";
+    private final static String targetURL = "http://localhost:8080/Server/GetState?id=%id&status=%status";
 
     private static int deltaTime = 1000;
     private ControllerState controllerState;
@@ -27,11 +27,12 @@ class ServerConnection implements Runnable {
                 System.out.println("IPController stopped.");
                 return;
             }
+            // TODO: Catch other errors.
         }
     }
 
     public void sendToServer() {
-        //TODO: Send ControllerState to the Server.
+        // TODO: Send ControllerState to the Server.
         String target = targetURL.replaceAll("%id", controllerState.id).replaceAll("%status", controllerState.status.toString());
 
         try {
@@ -44,7 +45,7 @@ class ServerConnection implements Runnable {
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
-            //TODO: Logger
+            // TODO: Logger
             return;
         }
     }
