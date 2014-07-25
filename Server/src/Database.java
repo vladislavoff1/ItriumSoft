@@ -39,6 +39,7 @@ public class Database {
 
     }
 
+
     private static String setStatusQuery = "SELECT `status` FROM `Statuses` WHERE `id` = \"%id\"";
 
     public static String getStatus(String id) {
@@ -69,6 +70,21 @@ public class Database {
         }
 
         return res;
+    }
+
+
+
+    private static String sendEventQuery = "INSERT INTO `Events` (`privateKey`, `msg`, `priority`) VALUES ('%id', '%msg', '%priority')";
+
+    public static void sendEvent(String id, String msg, int priority) throws Exception {
+
+        Class.forName(driverName);
+        Connection connection = DriverManager.getConnection(url, name, password);
+        Statement statement = connection.createStatement();
+
+        String query = sendEventQuery.replaceAll("%id", id).replaceAll("%msg", msg).replaceAll("%priority", priority + "");
+        statement.executeUpdate(query);
+
     }
 
 }
