@@ -20,28 +20,25 @@ public class GetState extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        
-        String queryString = request.getQueryString();
-        if (queryString == null) {
-            //TODO: Make error response.
+        String id = request.getParameter("id");
+        String status = request.getParameter("status");
+
+        if (id == null || status == null) {
+            // TODO: Make error response.
             return;
         }
         
-        //Parse request
-        SimpleMessage msg;
-        response.setContentType("text/html");
+
+        SimpleMessage msg = new SimpleMessage(id, status);
+
         PrintWriter out = response.getWriter();
 
         try {
-            msg = MessageParser.parse(queryString);
             Database.setStatus(msg.id, msg.status);
-        } catch (MessageParserError e) {
-        	out.println(e);
-            //TODO: Make error response.
-            return;
         } catch (Exception e) { //TODO: Specify the MySql's exceptions. 
             out.println(e);
             e.printStackTrace(out);
-            //TODO: Make error response.
+            // TODO: Make error response.
             return;
         }
 
