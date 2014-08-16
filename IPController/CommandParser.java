@@ -37,14 +37,10 @@ class CommandParser {
         Command command;
 
         try {
-
             command = (Command)Class.forName(commandName).newInstance();
             command.setArg(Arrays.copyOfRange(args, 1, args.length));
-
         } catch (ReflectiveOperationException e) {
-
             throw new UnsupportedCommand(commandName);
-
         }
 
         return command;

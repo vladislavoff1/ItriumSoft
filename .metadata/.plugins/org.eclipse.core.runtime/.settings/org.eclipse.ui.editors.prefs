@@ -1,3 +1,7 @@
 currentLine=false
 eclipse.preferences.version=1
 overviewRuler_migration=migrated_3.1
+showTextHoverAffordance=false
+show_range_indicator=false
+spacesForTabs=true
+warn_if_input_derived=false

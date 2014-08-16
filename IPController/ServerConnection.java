@@ -7,9 +7,9 @@ import java.io.*;
 
 class ServerConnection implements Runnable {
 
-    private final static String targetURL = "http://localhost:8080/Server/GetState?id=%id&status=%status";
+    private final static String targetURL = "http://serverborey-vladislavoff1.rhcloud.com/GetState?id=%id&status=%status";
 
-    private static int deltaTime = 1000;
+    private static int deltaTime = 5000;
     private ControllerState controllerState;
 
     public ServerConnection(ControllerState controllerState) {
@@ -33,7 +33,7 @@ class ServerConnection implements Runnable {
 
     public void sendToServer() {
         // TODO: Send ControllerState to the Server.
-        String target = targetURL.replaceAll("%id", controllerState.id).replaceAll("%status", controllerState.status.toString());
+        String target = targetURL.replaceAll("%id", controllerState.id).replaceAll("%status", controllerState.status.toString()).replaceAll(" ", "%20");
 
         try {
             URL server = new URL(target);

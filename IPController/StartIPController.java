@@ -11,7 +11,7 @@ class StartIPController {
 
         if (args.length > 0) {
             String id = args[0];
-            state = new ControllerState1(id, Status.NORMAL);
+            state = new ControllerState(id, Status.NORMAL);
         } else {
             state = new ControllerState(Status.NORMAL); 
         }

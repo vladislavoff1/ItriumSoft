@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
-  <server id="Tomcat v8.0 Server (localhost)" path="publish0.dat"/>
+  <server id="clientborey at OpenShift" path="publish3.dat"/>
+  <server id="serverborey at OpenShift" path="publish1.dat"/>
+  <server id="Tomcat v8.0 Server (localhost)" path="publish2.dat"/>
 </publish-info>

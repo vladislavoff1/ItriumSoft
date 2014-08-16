@@ -1,4 +1,5 @@
 import java.sql.*;
+import java.util.Properties;
 
 /**
  * @author Vladislav Romanov
@@ -7,10 +8,28 @@ import java.sql.*;
 public class Database {
 
     protected static String driverName = "com.mysql.jdbc.Driver";
-    protected static String url = "jdbc:mysql://localhost:3306/IPControllerDB";
-    protected static String name = "root";
-    protected static String password = "vlad007.1996@yandex.ru";
+    protected static String url        = "jdbc:mysql://127.10.62.130:3306/serverborey";
+    protected static String name       = "adminNILRcWH";
+    protected static String password   = "Nw-zHuk5VKZN";
 
+    protected static Connection connection = null;
+
+    static Statement createStatement() throws SQLException, ClassNotFoundException {
+        if (connection != null && !connection.isClosed()) {
+            return connection.createStatement();
+        }
+        Class.forName(driverName);
+        Properties connInfo = new Properties();
+        connInfo.put("user", name);
+        connInfo.put("password", password);
+
+        connInfo.put("useUnicode","true");
+        connInfo.put("charSet", "windows-1251");
+        connInfo.put("characterEncoding", "windows-1251");
+
+        Connection connection = DriverManager.getConnection(url, connInfo);
+        return connection.createStatement();
+    }
 
     private static String getStatusQuery = "INSERT INTO `Statuses`(`id`, `status`) VALUES (\"%id\", \"%status\") ON DUPLICATE KEY UPDATE `time` = now(), `status` = \"%status\";";
 
@@ -19,15 +38,13 @@ public class Database {
         //int result;
 
         //try {
-            Class.forName(driverName);
-            connection = DriverManager.getConnection(url, name, password);
-            Statement statement = connection.createStatement();
+            Statement statement = createStatement();
 
             String query = getStatusQuery.replaceAll("%id", id).replaceAll("%status", status);
             statement.executeUpdate(query);
         /*} catch (Exception ex) {
             //TODO Logger
-        } finally {
+        } finally {11
             if (connection != null) {
                 try {
                     connection.close();
@@ -76,15 +93,23 @@ public class Database {
 
     private static String sendEventQuery = "INSERT INTO `Events` (`privateKey`, `msg`, `priority`) VALUES ('%id', '%msg', '%priority')";
 
-    public static void sendEvent(String id, String msg, int priority) throws Exception {
+    public static String sendEvent(String id, String msg, int priority) throws Exception {
 
-        Class.forName(driverName);
-        Connection connection = DriverManager.getConnection(url, name, password);
+        Properties connInfo = new Properties();
+        connInfo.put("user", name);
+        connInfo.put("password", password);
+
+        connInfo.put("useUnicode","true");
+        connInfo.put("charSet", "utf-8");
+        connInfo.put("characterEncoding", "utf-8");
+
+        Connection connection = DriverManager.getConnection(url, connInfo);
         Statement statement = connection.createStatement();
-
+        
         String query = sendEventQuery.replaceAll("%id", id).replaceAll("%msg", msg).replaceAll("%priority", priority + "");
         statement.executeUpdate(query);
 
+        return query;
     }
 
 }
