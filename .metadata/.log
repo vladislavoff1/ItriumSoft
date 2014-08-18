@@ -9199,3 +9199,394 @@ Caused by: com.jcraft.jsch.JSchException: java.net.UnknownHostException: serverb
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-16 21:12:14.092
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-17 01:49:30.922 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-08-17 01:49:39.001
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 01:49:59.101
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.openshift.express.ui, page: org.jboss.tools.openshift.express.ui.preferences.OpenShiftPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 01:49:59.106
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 01:49:59.107
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui.browser 2 0 2014-08-17 01:50:35.907
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-17 01:51:07.865
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-17 01:51:07.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-17 12:10:17.624 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-08-17 12:10:29.665
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 12:11:09.574
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.openshift.express.ui, page: org.jboss.tools.openshift.express.ui.preferences.OpenShiftPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 12:11:09.579
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-17 12:11:09.579
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-17 12:11:37.658
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-17 12:11:37.831
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui.browser 2 0 2014-08-17 12:11:57.409
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2014-08-18 13:03:43.784 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-08-18 13:03:52.406
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 2 2014-08-18 13:04:28.507
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.openshift.express.ui, page: org.jboss.tools.openshift.express.ui.preferences.OpenShiftPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-18 13:04:28.513
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-08-18 13:04:28.513
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:05:10.063
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:05:10.380
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui.browser 2 0 2014-08-18 13:05:30.687
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:06:30.093
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:06:30.144
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:07:01.348
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:07:01.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:26.088
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:26.098
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:41.598
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:41.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:43.689
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:08:43.693
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:00.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:00.378
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:23.321
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:23.329
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:24.382
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:24.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:33.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:33.561
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:53.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:09:53.911
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:01.438
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:01.445
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:06.323
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:06.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:19.967
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:19.977
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:55.367
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:10:55.372
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:15:49.462
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:15:49.469
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-08-18 13:16:10.045
+!MESSAGE Could not publish to the server.
+!STACK 0
+java.lang.NullPointerException
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.getDomain(Connection.java:382)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerUtils.getApplication(OpenShiftServerUtils.java:155)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerUtils.getDeployFolder(OpenShiftServerUtils.java:208)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerPublishMethod.publishFinish(OpenShiftServerPublishMethod.java:79)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publishFinish(OpenShiftServerBehaviour.java:94)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publish(OpenShiftServerBehaviour.java:38)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publish(OpenShiftServerBehaviour.java:45)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.openshift.express.ui 4 4 2014-08-18 13:16:59.700
+!MESSAGE Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: 9245cd06807f86839bd0152cba31f48e
+
+!STACK 0
+com.openshift.client.OpenShiftEndpointException: Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: 9245cd06807f86839bd0152cba31f48e
+
+	at com.openshift.internal.client.RestService.request(RestService.java:120)
+	at com.openshift.internal.client.RestService.request(RestService.java:92)
+	at com.openshift.internal.client.AbstractOpenShiftResource$ServiceRequest.execute(AbstractOpenShiftResource.java:143)
+	at com.openshift.internal.client.APIResource$GetUserRequest.execute(APIResource.java:309)
+	at com.openshift.internal.client.APIResource.getUser(APIResource.java:114)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.createUser(Connection.java:229)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.connect(Connection.java:205)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPageModel.connect(ConnectionWizardPageModel.java:247)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPage$ConnectJob.run(ConnectionWizardPage.java:479)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.openshift.internal.client.httpclient.InternalServerErrorException: {"api_version":1.2,"data":null,"messages":[{"exit_code":1,"field":null,"index":null,"severity":"error","text":"Unable to authenticate the user. Please try again and contact support if the issue persists. \nReference ID: 9245cd06807f86839bd0152cba31f48e"}],"status":"internal_server_error","supported_api_versions":[1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7],"type":null,"version":"1.2"}
+
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.createException(UrlConnectionHttpClient.java:176)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:157)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:132)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.get(UrlConnectionHttpClient.java:91)
+	at com.openshift.internal.client.RestService.request(RestService.java:160)
+	at com.openshift.internal.client.RestService.request(RestService.java:107)
+	... 9 more
+Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL: https://openshift.redhat.com/broker/rest/user
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:153)
+	... 13 more
+
+!ENTRY org.jboss.tools.openshift.express.ui 4 4 2014-08-18 13:17:15.034
+!MESSAGE Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: 0494c0402fecfabf8b3a79ac3d116e4c
+
+!STACK 0
+com.openshift.client.OpenShiftEndpointException: Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: 0494c0402fecfabf8b3a79ac3d116e4c
+
+	at com.openshift.internal.client.RestService.request(RestService.java:120)
+	at com.openshift.internal.client.RestService.request(RestService.java:92)
+	at com.openshift.internal.client.AbstractOpenShiftResource$ServiceRequest.execute(AbstractOpenShiftResource.java:143)
+	at com.openshift.internal.client.APIResource$GetUserRequest.execute(APIResource.java:309)
+	at com.openshift.internal.client.APIResource.getUser(APIResource.java:114)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.createUser(Connection.java:229)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.connect(Connection.java:205)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPageModel.connect(ConnectionWizardPageModel.java:247)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPage$ConnectJob.run(ConnectionWizardPage.java:479)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.openshift.internal.client.httpclient.InternalServerErrorException: {"api_version":1.2,"data":null,"messages":[{"exit_code":1,"field":null,"index":null,"severity":"error","text":"Unable to authenticate the user. Please try again and contact support if the issue persists. \nReference ID: 0494c0402fecfabf8b3a79ac3d116e4c"}],"status":"internal_server_error","supported_api_versions":[1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7],"type":null,"version":"1.2"}
+
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.createException(UrlConnectionHttpClient.java:176)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:157)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:132)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.get(UrlConnectionHttpClient.java:91)
+	at com.openshift.internal.client.RestService.request(RestService.java:160)
+	at com.openshift.internal.client.RestService.request(RestService.java:107)
+	... 9 more
+Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL: https://openshift.redhat.com/broker/rest/user
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:153)
+	... 13 more
+
+!ENTRY org.jboss.tools.openshift.express.ui 4 4 2014-08-18 13:17:28.896
+!MESSAGE Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: a2de435ba78b4151d14ef7c1ab9ab970
+
+!STACK 0
+com.openshift.client.OpenShiftEndpointException: Could not request https://openshift.redhat.com/broker/rest/user: Unable to authenticate the user. Please try again and contact support if the issue persists. 
+Reference ID: a2de435ba78b4151d14ef7c1ab9ab970
+
+	at com.openshift.internal.client.RestService.request(RestService.java:120)
+	at com.openshift.internal.client.RestService.request(RestService.java:92)
+	at com.openshift.internal.client.AbstractOpenShiftResource$ServiceRequest.execute(AbstractOpenShiftResource.java:143)
+	at com.openshift.internal.client.APIResource$GetUserRequest.execute(APIResource.java:309)
+	at com.openshift.internal.client.APIResource.getUser(APIResource.java:114)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.createUser(Connection.java:229)
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.connect(Connection.java:205)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPageModel.connect(ConnectionWizardPageModel.java:247)
+	at org.jboss.tools.openshift.express.internal.ui.wizard.connection.ConnectionWizardPage$ConnectJob.run(ConnectionWizardPage.java:479)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.openshift.internal.client.httpclient.InternalServerErrorException: {"api_version":1.2,"data":null,"messages":[{"exit_code":1,"field":null,"index":null,"severity":"error","text":"Unable to authenticate the user. Please try again and contact support if the issue persists. \nReference ID: a2de435ba78b4151d14ef7c1ab9ab970"}],"status":"internal_server_error","supported_api_versions":[1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7],"type":null,"version":"1.2"}
+
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.createException(UrlConnectionHttpClient.java:176)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:157)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:132)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.get(UrlConnectionHttpClient.java:91)
+	at com.openshift.internal.client.RestService.request(RestService.java:160)
+	at com.openshift.internal.client.RestService.request(RestService.java:107)
+	... 9 more
+Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL: https://openshift.redhat.com/broker/rest/user
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.openshift.internal.client.httpclient.UrlConnectionHttpClient.request(UrlConnectionHttpClient.java:153)
+	... 13 more
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-08-18 13:17:35.035
+!MESSAGE Could not publish to the server.
+!STACK 0
+java.lang.NullPointerException
+	at org.jboss.tools.openshift.express.internal.core.connection.Connection.getDomain(Connection.java:382)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerUtils.getApplication(OpenShiftServerUtils.java:155)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerUtils.getDeployFolder(OpenShiftServerUtils.java:208)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerPublishMethod.publishFinish(OpenShiftServerPublishMethod.java:79)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publishFinish(OpenShiftServerBehaviour.java:94)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publish(OpenShiftServerBehaviour.java:38)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.jboss.tools.openshift.express.internal.core.server.OpenShiftServerBehaviour.publish(OpenShiftServerBehaviour.java:45)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:18:57.029
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:18:57.032
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:18:58.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:18:58.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:38:57.658
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:38:57.692
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:39:13.523
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:39:13.532
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:47:59.687
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:47:59.689
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:01.819
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:01.821
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:14.229
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:14.273
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:23.347
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:48:23.370
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2014-08-18 13:48:30.555
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:49:11.586
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:49:11.593
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2014-08-18 13:49:24.565
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertJars
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:49:28.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:49:28.533
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:50:03.477
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:50:03.484
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:58:15.109
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:58:15.204
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:58:28.555
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-18 13:58:28.558
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

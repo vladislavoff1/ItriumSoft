@@ -8,7 +8,7 @@ import java.io.*;
 
 class EventSender implements Runnable  {
     
-    private final static String targetURL = "http://serverborey-vladislavoff1.rhcloud.com/GetEvent?id=%id&eventMsg=%eventMsg&eventPriority=%eventPriority";
+    private final static String targetURL = "http://serverborey-vladislavoff1.rhcloud.com/api?method=NewEvent&key=%key&msg=%msg&priority=%priority";
 
     private Event event;
     private ControllerState controllerState;
@@ -25,7 +25,7 @@ class EventSender implements Runnable  {
 
     public void sendToServer() {
         try {
-            String target = targetURL.replaceAll("%id", controllerState.id).replaceAll("%eventMsg", URLEncoder.encode(event.msg, "UTF-8")).replaceAll("%eventPriority", event.priority + "").replaceAll(" ", "%20");
+            String target = targetURL.replaceAll("%key", controllerState.id).replaceAll("%msg", URLEncoder.encode(event.msg, "UTF-8")).replaceAll("%priority", event.priority + "").replaceAll(" ", "%20");
             System.out.println(target);
             URL server = new URL(target);
             URLConnection yc = server.openConnection();
