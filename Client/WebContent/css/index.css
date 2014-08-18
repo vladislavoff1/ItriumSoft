@@ -1,0 +1,354 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid #000;
+    border: none;
+    font-family: "Comic Sans MS", "Comic Sans MS (my)", "Verdana", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.2s;
+}
+body {
+    background: #444;
+    background: url(../images/index/bg.jpg) no-repeat, url(../images/index/bg_repeat.png);
+    background-size: 100%, 7%;
+}
+@font-face {
+    font-family: "Comic Sans MS (my)";
+    src: url('../fonts/ComicSansMSBold.ttf');
+    font-weight: bold;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -10px;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.simple_text {
+    font-size: 14px;
+    line-height: 100%;
+    color: #738194;
+}
+.important_text {
+    font-size: 14px;
+    line-height: 100%;
+    color: #999;
+}
+#site {
+    margin: 0px auto;
+    width: 970px;
+    position: relative;
+}
+#logo {
+    display: inline-block;
+    font-style: bold;
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 200px;
+}
+#logo h1 {
+    margin-top: 20px;
+    font-size: 88px;
+    color: #fff;
+    height: 100px;
+}
+#logo #itrium {
+    color: #49b2d0;
+}
+#logo #slogan {
+    font-size: 43.5px;
+    color: #fff;
+    letter-spacing: 0.4px;
+}
+#content {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: justify;
+    float: left;
+    width: 590px;
+    color: #fff;
+    font-size: 15px;
+}
+#about_contacts {
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+    width: 350px;
+}
+#about {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+    width: 350px;
+    height: 130px;
+    overflow: hidden;
+}
+#about .simple_text {
+    margin: 0px 10px;
+    margin-top: -10px;
+    text-align: center;
+}
+#authorization {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+#authorization .inp {
+    display: block;
+    background: #f0f0f0;
+    margin: 10px auto;
+    width: 285px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.05);
+    padding-left: 15px;
+    font-size: 12px;
+    color: #738194;
+}
+#authorization .inp:focus {
+    background: #fff;
+}
+input:focus {
+    outline: none;
+    //border: 1px solid #fff;
+
+}
+#authorization #buttons {
+    margin: 0px 25px;
+    height: 30px;
+}
+#authorization .btn {
+    appearance: none;
+    cursor: pointer;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+#authorization #buttons #enter {
+    float: left;
+    padding-top: 1px;
+    background-color: #3fa63f;
+    width: 100px;
+}
+#authorization #buttons #enter:hover {
+    background-color: #3fc63f;
+}
+#authorization #buttons #to_reg {
+    float: right;
+    background-color: #22819c;
+    width: 190px;
+}
+#authorization #buttons #to_reg:hover {
+    background-color: #2281cc;
+}
+#authorization #forget {
+    margin: 0px 140px;
+    margin-top: 2px;
+}
+#authorization #forget a {
+    text-decoration: none;
+    color: #888;
+    font-size: 8px;
+}
+#authorization #forget a:hover {
+    color: #999;
+}
+#registration {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+#registration .title {
+    margin: 5px 0;
+    margin-top: 10px;
+}
+#registration .inp {
+    display: block;
+    background: #f0f0f0;
+    margin: 7px auto;
+    width: 285px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.05);
+    padding-left: 15px;
+    font-size: 12px;
+    color: #738194;
+}
+#registration .inp:focus {
+    background: #fff;
+}
+#registration #buttons {
+    margin: 0px 25px;
+    height: 30px;
+}
+#registration .btn {
+    appearance: none;
+    cursor: pointer;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+#registration #buttons #back {
+    float: left;
+    background-color: #555;
+    width: 103px;
+}
+#registration #buttons #back:hover {
+    background-color: #666;
+}
+#registration #buttons #reg {
+    float: right;
+    background-color: #22819c;
+    width: 190px;
+}
+#registration #buttons #reg:hover {
+    background-color: #2281cc;
+}
+#registration #forget {
+    margin: 0px 140px;
+    margin-top: 2px;
+}
+#registration #forget a {
+    text-decoration: none;
+    color: #888;
+    font-size: 8px;
+}
+#registration #forget a:hover {
+    color: #999;
+}
+#registration {
+    display: none;
+}
+#contacts {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+    width: 350px;
+    height: 130px;
+}
+#contacts table {
+    margin-left: 35px;
+    margin-top: 0px;
+}
+#contacts table tr {
+    height: 20px;
+}
+#contacts table tr:first-child {
+    width: 140px;
+}
+#copyright {
+    position: absolute;
+    left: auto;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        -webkit-background-size: 1000px, 70px;
+        background-size: 1000px, 70px;
+    }
+}
+@media screen and (orientation: portrait) {
+    #header:after {
+        content: '';
+        display: block;
+        width: 600px;
+        height: 200px;
+    }
+    #authorization, #registration {
+        margin-right: 10px;
+    }
+    #content {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 50px;
+        -moz-column-count: 2;
+        -moz-column-gap: 50px;
+        -o-column-count: 2;
+        -o-column-gap: 50px;
+        -ms-column-count: 2;
+        -ms-column-gap: 50px;
+        display: block;
+        margin: 10% auto;
+        float: none;
+        width: 95%;
+        font-size: 150%;
+        line-height: 170%;
+    }
+    #about_contacts {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #about {
+        margin: 0 0;
+        margin-left: 10px;
+        float: left;
+        width: 580px;
+    }
+    #about .simple_text {
+        margin: 0px 35px;
+        margin-top: -10px;
+        line-height: 150%;
+        text-align: justify;
+    }
+    #contacts {
+        margin: 0 10px;
+        float: right;
+    }
+}
+/*3D Rotation*/
+
+#header {
+    perspective: 980px;
+}
+#registration {
+    position: absolute;
+    right: 0px;
+    display: block;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    visibility: hidden;
+    transition: transform 0.5s;
+}
+#authorization {
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
